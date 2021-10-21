@@ -1,0 +1,171 @@
+@font-face {
+  font-family:'dyslexic';
+  src: url('OpenDyslexic-Bold.eot') format('opentype'); 
+  font-weight: normal;
+  }
+
+body {
+  background-color: #000000;
+}
+
+
+
+html {
+  font-family: 'Lato', sans-serif;
+ 
+}
+
+h1{
+  color: #d9534f;
+
+}
+.title{
+
+  margin: 5px 20px;
+}
+
+h2 { 
+  margin-top:10px;
+  text-align: center;
+}
+h3 {
+  margin: 5px 20px;
+}
+
+
+.header__principal{
+  width: 100%;
+  height:70px;
+  padding: 0 10px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.conteudo__principal {
+  width:100%;
+  height: 450px;
+  padding: 5px 10px;
+  background-color: #969696;
+  display: flex;
+  background-image: url(../Imagem/Sãopaulo.jpg);
+  background-position: center;
+}
+
+
+.form_dados{
+    width: 500;
+    height: 400px;
+    margin: 10px  auto;
+    /* border: solid 1px #181327; */
+    background-color: #763caf;
+}
+
+h2{
+     color: rgb(0, 0, 0);
+    font-size: 30px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+}
+h3{
+    color: #d9534f);
+    font-size: 20px;
+}
+
+p{
+    margin: 20px;
+    color: #fff;
+    font-family: 18px;
+}
+
+.botao  {
+    padding: 10px 30px;
+    background-color:#FA503F ;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px;
+}
+
+.botao :hover {
+    background-color:#f83321 ;
+    color: #fff;
+}
+
+.bota  {
+  padding: 10px 15px;
+  background-color:#FA503F ;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px;
+}
+
+
+.email{
+  padding: 15px 50px;
+}
+
+.elementos{
+    width: 100%;
+}
+
+
+
+.conteudo{
+    width: 100%;   
+    margin: 0 0;
+    display: flex;
+    flex-direction: column;
+  
+  
+}  
+
+.footer__principal{
+
+   text-align: center;
+   /* height:70px; */
+   padding: 0 10px;
+   background-color: #000000;
+   width: 100%;
+   height:70px;
+   padding: 0 10px;
+  
+}
+.botao_dois{
+
+  padding: 10px 40px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 1px;
+  background-color: #FA503F;
+}
+i{
+  color:#fff
+}
+nav{ 
+  color: #fff;
+  
+}
+
+
+
+
+/* media */
+@media (min-width: 800px) {
+    .box{
+        width: 50%;
+        font-size: 2em;
+    }
+  
+  }
+  @media (min-width: 1024px){
+  
+    .box {
+  
+        width: : 25%;
+        font-size: 3em;
+    }
+    
